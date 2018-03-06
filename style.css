@@ -1,0 +1,72 @@
+div.containerplus{
+  width:auto;
+  height:125px;
+}
+
+img.logo{
+  position:absolute;
+  height:180px;
+}
+
+div.footer{
+  background-color: black;
+  width:100%;
+  height:125px;
+  position:absolute;
+}
+
+div.footertext{
+  color: white;
+  margin-left:42%;
+}
+
+div.icon{
+  opacity: 0.7;
+  padding: 0;
+  width:auto;
+}
+
+div:hover.icon{
+    transition: .3s;
+    opacity: 1;
+}
+
+img.homePage{
+  height:auto;
+  width:113.75%;
+  margin-left: -190px;
+  padding-bottom: 30px;
+}
+
+.navbar-default{
+  margin-top: 45px;
+  background-color: #F8F8F8;
+  border-color: white;
+}
+
+.affix {
+    top: -45px;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+ul.navbar-nav{
+  border-style: none;
+  font-weight: bold;
+  font-family: 'Rockwell';
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 20px;
+  float:right;
+}
+
+ul.navigation> li > a:hover{
+  border-style: solid;
+  border-width: 1.5px;
+  background-color: white;
+  color:#C10000;
+}
