@@ -5,30 +5,46 @@ div.containerplus{
 
 img.logo{
   position:absolute;
-  height:180px;
+  height:270px;
+  background-color: white;
+}
+
+img.footerLogo{
+  height: 200px;
+  margin-top: 20px;
 }
 
 div.footer{
-  background-color: black;
+  background-color: #EAF9FB;
   width:100%;
-  height:125px;
+  height:300px;
   position:absolute;
 }
 
 div.footertext{
   color: white;
   margin-left:42%;
+  font-size:14px;
+}
+
+div.topIcon{
+  padding: 0;
+  width:auto;
+}
+
+div:hover.topIcon{
+  transition: .4s;
+  opacity: 0.3;
 }
 
 div.icon{
-  opacity: 0.7;
   padding: 0;
   width:auto;
 }
 
 div:hover.icon{
-    transition: .3s;
-    opacity: 1;
+  transition: .4s;
+  opacity: 0.7;
 }
 
 img.homePage{
@@ -38,14 +54,13 @@ img.homePage{
   padding-bottom: 30px;
 }
 
-.navbar-default{
-  margin-top: 45px;
-  background-color: #F8F8F8;
-  border-color: white;
+.navbar-custom{
+  margin-top: 145px;
+  background-color: white;
 }
 
 .affix {
-    top: -45px;
+    top: -145px;
     width: 100%;
 }
 
@@ -54,19 +69,42 @@ img.homePage{
 }
 
 ul.navbar-nav{
-  border-style: none;
-  font-weight: bold;
-  font-family: 'Rockwell';
-  font-size: 16px;
-  text-align: center;
+  font-family: 'Proxima Nova Soft','Helvetica Neue',sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
   cursor: pointer;
-  margin-right: 20px;
-  float:right;
+  margin-right: 30px;
+  float: right;
+  padding:5px;
 }
 
-ul.navigation> li > a:hover{
-  border-style: solid;
-  border-width: 1.5px;
+ul.navbar-nav >li> a{
+  letter-spacing: 1px;
+  border-style:solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 7px;
+  color:black;
+  margin-right: 10px;
+}
+
+.navbar-custom .navbar-nav >.active >a {
+  border-style:solid;
+  border-width: 2px;
+  border-radius: 7px;
+  background-color: #04CCE2;
+  color:black;
+}
+
+.navbar-custom .navbar-nav >.active >a:hover {
+  background-color: #04CCE2;
+  border-color: white;
+}
+
+ul.navbar-nav> li > a:hover{
+  border-style:solid;
+  border-width: 2px;
+  border-color: black;
+  transition: .5s;
   background-color: white;
-  color:#C10000;
 }
