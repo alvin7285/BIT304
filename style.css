@@ -14,6 +14,15 @@ img.footerLogo{
   margin-top: 20px;
 }
 
+img.HELPLogo{
+  height: 150px;
+  margin-top: 20px;
+}
+
+img.AGNLogo{
+  height: 115px;
+  margin-top: 60px;
+}
 div.footer{
   background-color: #EAF9FB;
   width:100%;
