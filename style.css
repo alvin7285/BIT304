@@ -21,10 +21,16 @@ div.footer{
   position:absolute;
 }
 
-div.footertext{
-  color: white;
-  margin-left:42%;
-  font-size:14px;
+ul.ul{
+  list-style:none;
+}
+
+li.footerText{
+  font-family: 'RockWell';
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: -20px;
 }
 
 div.topIcon{
