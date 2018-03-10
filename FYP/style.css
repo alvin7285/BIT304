@@ -1,0 +1,125 @@
+div.containerplus{
+  width:auto;
+  height:125px;
+}
+
+img.logo{
+  position:absolute;
+  height:270px;
+  background-color: white;
+}
+
+img.footerLogo{
+  height: 200px;
+  margin-top: 20px;
+}
+
+img.HELPLogo{
+  height: 150px;
+  margin-top: 20px;
+}
+
+img.AGNLogo{
+  height: 115px;
+  margin-top: 60px;
+}
+div.footer{
+  background-color: #EAF9FB;
+  width:100%;
+  height:300px;
+  position:absolute;
+}
+
+ul.ul{
+  list-style:none;
+}
+
+li.footerText{
+  font-family: 'RockWell';
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+div.topIcon{
+  padding: 0;
+  width:auto;
+}
+
+div:hover.topIcon{
+  transition: .4s;
+  opacity: 0.3;
+}
+
+div.icon{
+  padding: 0;
+  width:auto;
+}
+
+div:hover.icon{
+  transition: .4s;
+  opacity: 0.7;
+}
+
+img.homePage{
+  height:auto;
+  width:113.75%;
+  margin-left: -190px;
+  padding-bottom: 30px;
+}
+
+.navbar-custom{
+  margin-top: 145px;
+  background-color: white;
+}
+
+.affix {
+    top: -145px;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+ul.navbar-nav{
+  font-family: 'Proxima Nova Soft','Helvetica Neue',sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 30px;
+  float: right;
+  padding:5px;
+}
+
+ul.navbar-nav >li> a{
+  letter-spacing: 1px;
+  border-style:solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 7px;
+  color:black;
+  margin-right: 10px;
+}
+
+.navbar-custom .navbar-nav >.active >a {
+  border-style:solid;
+  border-width: 2px;
+  border-radius: 7px;
+  background-color: #04CCE2;
+  color:black;
+}
+
+.navbar-custom .navbar-nav >.active >a:hover {
+  background-color: #04CCE2;
+  border-color: white;
+}
+
+ul.navbar-nav> li > a:hover{
+  border-style:solid;
+  border-width: 2px;
+  border-color: black;
+  transition: .5s;
+  background-color: white;
+}
