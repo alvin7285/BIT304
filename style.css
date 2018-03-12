@@ -32,12 +32,22 @@ div.footer{
 }
 
 .login{
-  margin: 50px;
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 5px;
-  border-color: #04CCE2;
-  height: 300px;
+  height: 400px;
+  margin: 100px;
+  background-color: #EAF9FB;
+  border-radius: 10px;
+}
+
+.loginText{
+  text-align: center;
+  font-weight: bold;
+  background-color: #04CCE2;
+  height: 60px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 507px;
+  margin-top: 0px;
+  margin-left: -14px;
 }
 
 .login > input{
@@ -54,6 +64,7 @@ div.footer{
   width: 200px;
   border-radius: 8px;
   color: white;
+  font-size:23px;
 }
 
 ul.ul{
@@ -99,8 +110,13 @@ img.homePage{
 .navbar-custom{
   margin-top: 5px;
   background-color: white;
+  z-index:1;
 }
 
+.contact{
+  margin-right: -80px;
+  margin-left: 80px;
+}
 .affix {
   top: -10px;
   width: 100%;
