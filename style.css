@@ -31,6 +31,17 @@ div.footer{
   position:absolute;
 }
 
+.line{
+  border-width: 2;
+  border-color: #04CCE2;
+}
+
+.aboutUs{
+  font-family: "RockWell";
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
 .login{
   height: 400px;
   margin: 100px;
