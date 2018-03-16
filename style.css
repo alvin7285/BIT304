@@ -27,7 +27,7 @@ img.AGNLogo{
 div.footer{
   background-color: #EAF9FB;
   width:100%;
-  height:300px;
+  height: auto;
   float: bottom;
 }
 
@@ -52,22 +52,23 @@ li.footerText{
 }
 
 .register{
-  height: 550px;
-  margin: 100px;
+  height: auto;
+  margin-bottom: 20px;
   background-color: #EAF9FB;
   border-radius: 10px;
 }
 
 .register > input{
   margin-top: 35px;
-  width: 600px;
+  width: 100%;
 }
 
 .login{
-  height: 400px;
-  margin: 100px;
+  height: auto;
+  margin: 20px;
   background-color: #EAF9FB;
   border-radius: 10px;
+  padding:20px;
 }
 
 .loginText{
@@ -83,7 +84,7 @@ li.footerText{
 
 .login > input{
   margin-top: 35px;
-  width: 600px;
+  width: 100%;
 }
 
 .loginBtn{
@@ -128,13 +129,13 @@ div:hover.icon{
 }
 
 .title{
-    height: 100px;
-    width: 100%;
-    font-size: 50px;
-    font-style: italic;
-    text-align: center;
-    font-family: 'RockWell';
-    font-weight: bold;
+  height: 100px;
+  width: 100%;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+  font-family: 'RockWell';
+  font-weight: bold;
 }
 
 .aboutJinjangTitle{
@@ -170,14 +171,14 @@ div:hover.icon{
 .homeBar{
   background-color: #EAF9FB;
   margin-top: 10px;
-  height: 180px;
+  height: auto;
   margin-bottom: 20px;
 }
 
 .homeBar2{
   background-color: #EAF9FB;
   margin-top: 10px;
-  height: 400px;
+  height: auto;
   margin-bottom: 20px;
 }
 
@@ -220,6 +221,7 @@ div:hover.icon{
   margin-top: 5px;
   background-color: white;
   z-index:1;
+  width:auto;
 }
 
 .contact{
