@@ -245,6 +245,17 @@ ul.navbar-nav{
   padding:5px;
 }
 
+.navbar-custom .navbar-nav >.logOut > a{
+  border-radius: 7px;
+  background-color: #FBA16C;
+  color: black;
+}
+
+.navbar-custom .navbar-nav >.logOut > a:hover{
+  background-color: #FBA16C;
+  border-color: black;
+}
+
 ul.navbar-nav >li> a{
   letter-spacing: 1px;
   border-style:solid;
